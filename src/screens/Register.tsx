@@ -105,20 +105,17 @@ const styles = StyleSheet.create({
   },
   header: {
     marginBottom: 32,
-    alignItems: 'center',
   },
   title: {
     fontSize: 24,
     fontWeight: '900',
     color: '#1A5F7A',
-    textAlign: 'center',
   },
   subtitle: {
     fontSize: 14,
     color: '#64748B',
     fontWeight: '500',
     marginTop: 4,
-    textAlign: 'center',
   },
   card: {
     width: '100%',

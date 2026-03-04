@@ -32,25 +32,19 @@ export const MobileLayout: React.FC<LayoutProps> = ({
       {/* Header */}
       {(title || showBack || showLogout) && (
         <View style={styles.header}>
-          <View style={styles.headerSide}>
+          <View style={styles.headerLeft}>
             {showBack && (
               <TouchableOpacity onPress={onBack} style={styles.iconButton}>
                 <ChevronLeft size={24} color="#FFFFFF" />
               </TouchableOpacity>
             )}
-          </View>
-          
-          <View style={styles.headerCenter}>
             {title && <Text style={styles.headerTitle}>{title}</Text>}
           </View>
-
-          <View style={styles.headerSide}>
-            {showLogout && (
-              <TouchableOpacity onPress={onLogout} style={styles.iconButton}>
-                <LogOut size={20} color="#FFFFFF" />
-              </TouchableOpacity>
-            )}
-          </View>
+          {showLogout && (
+            <TouchableOpacity onPress={onLogout} style={styles.iconButton}>
+              <LogOut size={20} color="#FFFFFF" />
+            </TouchableOpacity>
+          )}
         </View>
       )}
 
@@ -122,26 +116,20 @@ const styles = StyleSheet.create({
     backgroundColor: '#1A5F7A',
     paddingTop: Platform.OS === 'ios' ? 50 : 40,
     paddingBottom: 12,
-    paddingHorizontal: 16,
+    paddingHorizontal: 20,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  headerSide: {
-    width: 40,
+  headerLeft: {
+    flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
-  },
-  headerCenter: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   headerTitle: {
     color: '#FFFFFF',
     fontSize: 18,
     fontWeight: 'bold',
-    textAlign: 'center',
+    marginLeft: 8,
   },
   iconButton: {
     padding: 4,

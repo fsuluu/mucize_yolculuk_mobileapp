@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">mucize_yolculuk</string>
+    <string name="title_activity_main">mucize_yolculuk</string>
+    <string name="package_name">com.mucizeyolculuk.app</string>
+    <string name="custom_url_scheme">com.mucizeyolculuk.app</string>
+</resources>

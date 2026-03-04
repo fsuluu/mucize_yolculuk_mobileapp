@@ -72,10 +72,9 @@ const styles = StyleSheet.create({
   },
   header: {
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 24,
-    gap: 12,
   },
   title: {
     fontSize: 20,

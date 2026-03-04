@@ -147,20 +147,17 @@ const styles = StyleSheet.create({
   },
   header: {
     marginBottom: 24,
-    alignItems: 'center',
   },
   title: {
     fontSize: 24,
     fontWeight: '900',
     color: '#1E293B',
-    textAlign: 'center',
   },
   subtitle: {
     fontSize: 12,
     color: '#64748B',
     fontWeight: '500',
     marginTop: 4,
-    textAlign: 'center',
   },
   form: {
     gap: 16,

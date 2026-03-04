@@ -141,19 +141,16 @@ const styles = StyleSheet.create({
     shadowRadius: 16,
     elevation: 6,
     marginBottom: 24,
-    alignItems: 'center',
   },
   bannerTitle: {
     fontSize: 18,
     fontWeight: 'bold',
     color: '#FFFFFF',
     marginBottom: 4,
-    textAlign: 'center',
   },
   bannerSubtitle: {
     fontSize: 12,
     color: 'rgba(255, 255, 255, 0.8)',
-    textAlign: 'center',
   },
   card: {
     backgroundColor: '#FFFFFF',
