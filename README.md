@@ -32,11 +32,9 @@ cd android
 ./gradlew assembleDebug
 
 🎥 Uygulama Çalışma Videosu
-YouTube Video Linki:
-[(BURAYA LİNK EKLENECEK)](https://youtu.be/d8fWpXH0cPY)
+YouTube Video Linki: (https://youtu.be/d8fWpXH0cPY)
 
 📦 Android Debug APK yolu:
-
 android/app/build/outputs/apk/debug/app-debug.apk
 
 🛠 Kullanılan Teknolojiler
