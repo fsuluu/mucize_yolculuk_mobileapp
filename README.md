@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Mucize Yolculuk, anne adayları için geliştirilmiş bir mobil uygulamadır.
+Uygulama, gebelik sürecini haftalık olarak takip etmeyi, bilgilendirici içerik sunmayı ve kullanıcıya rehberlik etmeyi amaçlar.
 
-# Run and deploy your AI Studio app
+Proje React Native + Capacitor kullanılarak geliştirilmiştir ve Android platformunda çalışmaktadır.
 
-This contains everything you need to run your app locally.
+🚀 Yerelde Nasıl Çalıştırılır?
+1️⃣ Gereksinimler
 
-View your app in AI Studio: https://ai.studio/apps/0064ded8-7f1e-4e56-9ad3-aad13b90b73d
+Bilgisayarınızda aşağıdaki kurulumların yapılmış olması gerekir:
 
-## Run Locally
+Node.js (LTS önerilir)
+npm veya yarn
+Android Studio
+JDK 17
+Git
 
-**Prerequisites:**  Node.js
+2️⃣ Projeyi Klonlama
+git clone https://github.com/kullaniciadi/mucizeyolculuk-gebeler.git
+cd mucizeyolculuk-gebeler
+3️⃣ Bağımlılıkları Yükleme
+npm install
+4️⃣ Android Platformunu Çalıştırma
+npx cap sync android
+npx cap open android
 
+Android Studio açıldıktan sonra:
+Emulator başlatın
+Run butonuna basın
+Alternatif olarak terminalden:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+cd android
+./gradlew assembleDebug
+
+🎥 Uygulama Çalışma Videosu
+YouTube Video Linki:
+[(BURAYA LİNK EKLENECEK)](https://youtu.be/d8fWpXH0cPY)
+
+📦 Android Debug APK yolu:
+
+android/app/build/outputs/apk/debug/app-debug.apk
+
+🛠 Kullanılan Teknolojiler
+
+React Native
+Capacitor
+Java (Android)
+Gradle
+
+👩‍💻 Proje Amacı
+
+Bu proje, anne adaylarının gebelik sürecini daha bilinçli ve düzenli takip edebilmesi için geliştirilmiştir. Haftalık bilgilendirme, rehber içerikler ve kullanıcı dostu arayüz sunmayı hedefler.
